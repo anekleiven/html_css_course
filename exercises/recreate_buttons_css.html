@@ -1,140 +1,73 @@
-<style>
-  .search_result {
-    margin-right: 5px;
-    margin-left: 5px;
-    font-size: 18px;
-  }
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>recreate buttons</title>
+      <link rel="stylesheet" href="stylesheets/recreate_buttons.css">
+    </head>
+    <body>
+      <h1>Challenge exercises</h1>
 
-  .back-button {
-    margin-right: 10px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    font-size: 18px;
-  }
+      <p>
+        "Recreate the design using the box model" 
+      </p>
 
-  .next-button {
-    margin-left: 10px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    font-size: 18px;
-  }
+      <button class="back-button">
+        Back
+      </button>
 
-  .stretch-button {
-    background-color: green;
-    color: white; 
-    font-size: 18px;
-    padding: 9px 16px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    border: none; 
-    border-radius: 2px; 
-    cursor: pointer;
-    transition: padding 1s;
-  }
+      <a class="search_result" href="https://www.google.com/search?q=mattilbud&oq=mat&gs_lcrp=EgZjaHJvbWUqDggAEEUYJxg7GIAEGIoFMg4IABBFGCcYOxiABBiKBTIGCAEQRRg5MgYIAhBFGDsyBggDEEUYOzIMCAQQIxgnGIAEGIoFMgoIBRAAGLEDGIAEMgoIBhAAGLEDGIAEMg0IBxAAGIMBGLEDGIAEMgoICBAAGLEDGIAEMhIICRAuGEMYxwEY0QMYgAQYigXSAQg5MDBqMGoxNagCCLACAfEFNnIf0aaWwxDxBTZyH9GmlsMQ&sourceid=chrome&ie=UTF-8">
+        1
+      </a>
 
-  .stretch-button:hover {
-    padding: 9px 25px;
-  }
+      <a class="search_result" href="https://www.google.com/search?q=mattilbud&sca_esv=6e4820828e77e658&sxsrf=AE3TifPFDrmOppfAAXcrVci6WcbN05t05g:1760977131176&ei=62D2aPC6Cr6Y1fIP94WD4A8&start=10&sa=N&sstk=Af77f_e7LpeVseSD74ljCBMLOHxiBsf2s9fJE2BBKw2uSZYhpSMZIi9vnwahLLMIrtg0sn5zwR0mCNSjAcvlliXhLpuzSTyeT1vD7A&ved=2ahUKEwiw3PGCl7OQAxU-TFUIHffCAPwQ8tMDegQICRAE&biw=748&bih=830&dpr=2">
+        2
+      </a>
 
-  .shadow-button {
-    background-color: green;
-    color: white;
-    border: none;
-    font-size: 18px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 16px;
-    padding-right: 16px;
-    cursor: pointer;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
-  }
+      <a class="search_result" href="https://www.google.com/search?q=mattilbud&sca_esv=6e4820828e77e658&sxsrf=AE3TifPI8GIbp0QdDp-0z86sZuIo1ZR97w:1760977208140&ei=OGH2aMGqCOzNwPAPh5ShuQM&start=20&sa=N&sstk=Af77f_et-pekbYX_AtUPNKd4f-FYQAqUvhwG_K43AVy0i487DYC4kMaj3prfBOip1N4RVDGBKArXz25ES_DatJTvIQEY8xFH1p13cYcPlhottjlzswv6n7XBYgiImscmNMXU&ved=2ahUKEwjBpsunl7OQAxXsJhAIHQdKKDc4ChDy0wN6BAgJEAc&biw=748&bih=830&dpr=2">
+        3
+      </a>
 
-  .shadow-button:active {
-    margin-top: 3px;
-    margin-left: 3px;
-    box-shadow: none;
-  }
+      <a class="search_result" href="https://www.google.com/search?q=mattilbud&sca_esv=6e4820828e77e658&sxsrf=AE3TifNBhiu5bzZxzxX74mWJmW-xNoJGwg:1760977233721&ei=UWH2aOjoK4if1fIP7dfzgAk&start=30&sa=N&sstk=Af77f_cAfTTxMnfl5LZTnBvqkXpdYArR3X3uWfSV46G4CyBgMKFXzw5032ntqb_fjV-ODv4g0zCG-pXtmN1UFPhCzNR13UMb6N3io4r6cnDx8wYL9bHfZdi6TPK0FetOCycfN8YPNIc9fRKDvkEydUXxsIhHB3gCcR8&ved=2ahUKEwio1eSzl7OQAxWIT1UIHe3rHJA4FBDy0wN6BAgKEAk&biw=748&bih=830&dpr=2">
+        4
+      </a>
 
-  .stretch {
-    background-color: green;
-    color: white; 
-    font-size: 18px;
-    padding: 9px 21px;
-    border: none;
-    border-radius: 2px;
-    cursor: pointer;
-    margin-left: 10px;
-    margin-right: 10px;
-    transition: padding 0.15s,
-      margin 0.15s;
-  }
+      <a class="search_result" href="https://www.google.com/search?q=mattilbud&sca_esv=6e4820828e77e658&sxsrf=AE3TifM6tnSM3WEvYxwCVgdturjhkMMLEA:1760977264793&ei=cGH2aMeWMILNwPAP452moQE&start=40&sa=N&sstk=Af77f_e6jb242z4n2R8qKDhtb44YyEEaMGv-tkxvTQHepAOrRE5x6duXgqVdR3az6F-GecSRCsiZAkKdXLlhBpaZs-u1Zu5pVJ392CIEONPmCN_WblgLZ0o3xtyRkFdSN65m3tO0Buz42EStmqYlvlQxedtAiG66n-Q57PkKP3IGtlF4ZXkTqYDfvE4nvtFhVQ&ved=2ahUKEwjHjs3Cl7OQAxWCJhAIHeOOKRQ4HhDy0wN6BAgIEAs&biw=748&bih=830&dpr=2">
+        5
+      </a>
 
-  .stretch:hover {
-    padding: 9px 25px;
-    margin-left: 0px;
-    margin-right: 0px;
-  }
+      <button class="next-button">
+        Next
+      </button>
 
-</style>
+      <br><br> 
+
+      <button class="stretch-button">
+        Stretch
+      </button>
+
+      <br><br> 
+
+      <button class="shadow-button">
+        Hello 👻
+      </button>
+
+      <br><br>
+
+      <button class="stretch">
+        One
+      </button>
+
+      <button class="stretch">
+        Two
+      </button>
+
+      <button class="stretch">
+        Three
+      </button>
+    </body>
+  </html>
+  
 
 
 
-<h1>Challenge exercises</h1>
 
-<p>
-  "Recreate the design using the box model" 
-</p>
-
-<button class="back-button">
-  Back
-</button>
-
-<a class="search_result" href="https://www.google.com/search?q=mattilbud&oq=mat&gs_lcrp=EgZjaHJvbWUqDggAEEUYJxg7GIAEGIoFMg4IABBFGCcYOxiABBiKBTIGCAEQRRg5MgYIAhBFGDsyBggDEEUYOzIMCAQQIxgnGIAEGIoFMgoIBRAAGLEDGIAEMgoIBhAAGLEDGIAEMg0IBxAAGIMBGLEDGIAEMgoICBAAGLEDGIAEMhIICRAuGEMYxwEY0QMYgAQYigXSAQg5MDBqMGoxNagCCLACAfEFNnIf0aaWwxDxBTZyH9GmlsMQ&sourceid=chrome&ie=UTF-8">
-  1
-</a>
-
-<a class="search_result" href="https://www.google.com/search?q=mattilbud&sca_esv=6e4820828e77e658&sxsrf=AE3TifPFDrmOppfAAXcrVci6WcbN05t05g:1760977131176&ei=62D2aPC6Cr6Y1fIP94WD4A8&start=10&sa=N&sstk=Af77f_e7LpeVseSD74ljCBMLOHxiBsf2s9fJE2BBKw2uSZYhpSMZIi9vnwahLLMIrtg0sn5zwR0mCNSjAcvlliXhLpuzSTyeT1vD7A&ved=2ahUKEwiw3PGCl7OQAxU-TFUIHffCAPwQ8tMDegQICRAE&biw=748&bih=830&dpr=2">
-  2
-</a>
-
-<a class="search_result" href="https://www.google.com/search?q=mattilbud&sca_esv=6e4820828e77e658&sxsrf=AE3TifPI8GIbp0QdDp-0z86sZuIo1ZR97w:1760977208140&ei=OGH2aMGqCOzNwPAPh5ShuQM&start=20&sa=N&sstk=Af77f_et-pekbYX_AtUPNKd4f-FYQAqUvhwG_K43AVy0i487DYC4kMaj3prfBOip1N4RVDGBKArXz25ES_DatJTvIQEY8xFH1p13cYcPlhottjlzswv6n7XBYgiImscmNMXU&ved=2ahUKEwjBpsunl7OQAxXsJhAIHQdKKDc4ChDy0wN6BAgJEAc&biw=748&bih=830&dpr=2">
-  3
-</a>
-
-<a class="search_result" href="https://www.google.com/search?q=mattilbud&sca_esv=6e4820828e77e658&sxsrf=AE3TifNBhiu5bzZxzxX74mWJmW-xNoJGwg:1760977233721&ei=UWH2aOjoK4if1fIP7dfzgAk&start=30&sa=N&sstk=Af77f_cAfTTxMnfl5LZTnBvqkXpdYArR3X3uWfSV46G4CyBgMKFXzw5032ntqb_fjV-ODv4g0zCG-pXtmN1UFPhCzNR13UMb6N3io4r6cnDx8wYL9bHfZdi6TPK0FetOCycfN8YPNIc9fRKDvkEydUXxsIhHB3gCcR8&ved=2ahUKEwio1eSzl7OQAxWIT1UIHe3rHJA4FBDy0wN6BAgKEAk&biw=748&bih=830&dpr=2">
-  4
-</a>
-
-<a class="search_result" href="https://www.google.com/search?q=mattilbud&sca_esv=6e4820828e77e658&sxsrf=AE3TifM6tnSM3WEvYxwCVgdturjhkMMLEA:1760977264793&ei=cGH2aMeWMILNwPAP452moQE&start=40&sa=N&sstk=Af77f_e6jb242z4n2R8qKDhtb44YyEEaMGv-tkxvTQHepAOrRE5x6duXgqVdR3az6F-GecSRCsiZAkKdXLlhBpaZs-u1Zu5pVJ392CIEONPmCN_WblgLZ0o3xtyRkFdSN65m3tO0Buz42EStmqYlvlQxedtAiG66n-Q57PkKP3IGtlF4ZXkTqYDfvE4nvtFhVQ&ved=2ahUKEwjHjs3Cl7OQAxWCJhAIHeOOKRQ4HhDy0wN6BAgIEAs&biw=748&bih=830&dpr=2">
-  5
-</a>
-
-<button class="next-button">
-  Next
-</button>
-
-<br><br> 
-
-<button class="stretch-button">
-  Stretch
-</button>
-
-<br><br> 
-
-<button class="shadow-button">
-  Hello 👻
-</button>
-
-<br><br>
-
-<button class="stretch">
-  One
-</button>
-
-<button class="stretch">
-  Two
-</button>
-
-<button class="stretch">
-  Three
-</button>

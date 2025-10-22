@@ -1,305 +1,92 @@
-<style> 
-  .uber-button {
-    background-color: black;
-    color: white;
-    padding: 9px 15px;
-    cursor: pointer;
-    margin-right: 10px;
-    transition: opacity 0.15s;
-  }
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>buttons exercises</title>
+      <link rel="stylesheet" href="stylesheets/buttons_css_exercises.css">
+    </head>
+    <body>
+      <h1>
+        <b>
+          Exercises CSS basics
+        </b>
+      </h1>
 
-  .uber-button:hover {
-    opacity: 0.8;
-  }
+      <h4>Uber button:</h4>
 
-  .amazon-button {
-    background-color: rgb(255,216,20);
-    color: black; 
-    padding: 9px 45px;
-    border-radius: 18px;
-    border: none;
-    font-weight: 500;
-    font-size: 15px;
-    cursor: pointer;
-    margin-right: 10px;
-    transition: background-color 0.15s;
-  }
+      <button class="uber-button">
+        Request now
+      </button>
 
-  .amazon-button:hover {
-    background-color: rgb(245, 200, 13);
-  }
+      <br>
+      <br>
+      <br>
 
-  .amazon-button:active {
-    opacity: 0.8;
-  }
+      <h4>Amazon button:</h4>
 
-  .github-button {
-    background-color: rgb(46,164,79);
-    color: white; 
-    padding: 11px 30px;
-    border-radius: 8px;
-    border: none; 
-    font-weight: bold;
-    font-size: 15px;
-    cursor: pointer;
-    transition: background-color 0.15s,
-    color 0.15s;
-  }
+      <button class="amazon-button">
+        Add to Cart
+      </button>
 
-  .github-button:hover {
-    background-color: rgb(55,170,86);
-  }
+      <br>
+      <br>
+      <br>
 
-  .github-button:active {
-    opacity: 0.8;
-  }
+      <h4>Github button:</h4>
 
-  .bootstrap-button-1 {
-    background-color: rgb(121,82,179);
-    color: white; 
-    padding: 14px 25px; 
-    border: none;
-    border-radius: 6px;
-    font-weight: 600;
-    font-size: 14px;
-    cursor: pointer; 
-    margin-right: 10px;
-    transition: background-color 0.15s;
-  }
-  
-  .bootstrap-button-1:hover {
-    background-color: rgb(129,86,185);
-  }
-   
-  .bootstrap-button-1:active {
-    opacity: 0.8;
-  }
+      <button class="github-button">
+        Sign up
+      </button>
 
-  .bootstrap-button-2 {
-    background-color: white;
-    color: rgb(108,117,125);
-    padding: 13px 24px;  
-    border-style: solid;
-    border-color: rgb(108,117,125);
-    border-radius: 6px;
-    border-width: 1px;
-    font-weight: 600;
-    font-size: 14px;
-    cursor: pointer;
-    transition: background-color 0.15s, 
-    color 0.15s;
-    }
+      <br>
+      <br>
+      <br>
 
-    .bootstrap-button-2:hover {
-      background-color: rgb(108,117,125);
-      color: white;
-    }
+      <h4>Bootstrap button:</h4>
 
-    .bootstrap-button-2:active {
-      opacity: 0.8;
-    }
+      <button class="bootstrap-button-1">
+        Get started
+      </button>
 
-  .linkedin-button-1 {
-    background-color: rgb(10,102,194);
-    color: white; 
-    padding: 12px 37px;
-    border: none; 
-    border-radius: 25px;
-    font-weight: 600;
-    font-size: 15px;
-    cursor: pointer;
-    margin-right: 10px;
-    transition: background-color 0.15s,
-      color 0.15s,
-      border 0.15s, 
-      border-color 0.15s,
-      border-width 0.15s;
-  }
+      <button class="bootstrap-button-2">
+        Download
+      </button>
 
-  .linkedin-button-1:hover {
-    background-color: white; 
-    color: rgb(10,102,194);
-    border: solid;
-    border-color: rgb(10,102,194);
-    border-width: 1px;
-  }
+      <br>
+      <br>
+      <br> 
 
-  .linkedin-button-1:active {
-    opacity: 0.8;
-  }
+      <h4>LinkedIn button:</h4>
 
-  .linkedin-button-2 {
-    background-color: white;
-    color: rgb(10,102,194);
-    font-weight: 600;
-    font-size: 15px;
-    padding: 11px 17px;
-    border-radius: 25px;
-    border-style: solid; 
-    border-width: 1px;
-    border-color: rgb(10,102,194);
-    cursor: pointer;
-    transition: background-color 0.15s,
-      color 0.15s; 
-  }
+      <button class="linkedin-button-1">
+        Apply on company website
+      </button>
 
-  .linkedin-button-2:hover {
-    background-color: rgb(10,102,194);
-    color: white; 
-  }
+      <button class="linkedin-button-2">
+        Save
+      </button>
 
-  .linkedin-button-2:active {
-    opacity: 0.8;
-  }
+      <br>
+      <br>
+      <br>
 
-  .add-to-cart {
-    background-color: rgb(255, 216, 20);
-    color: black; 
-    font-weight: 520;
-    font-size: 15px;
-    padding: 11px 25px;
-    border-radius: 30px;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.15s;
-  }
+      <h4> Recreate design:</h4>
 
-  .add-to-cart:hover {
-    background-color: rgb(255,200,10);
-  }
+      <a href="https://www.amazon.com/", target="_blank", class="amazon-url">
+        Back to Amazon
+      </a>
+      <br> 
+      <h2>Nike Black Running Shoes</h2>
+      <p class ="price">$39 - in stock.</p>
+      <p>Free delivery tomorrow.</p>
+      <button class="add-to-cart">
+        Add to Cart
+      </button>
+      <button class="buy-now">
+        Buy now
+      </button>
+    </body>
+  </html>
+ 
 
-  .add-to-cart:active {
-    opacity: 0.8;
-  }
-  
-  .buy-now {
-    background-color: rgb(255, 164, 28);
-    color: black; 
-    font-weight: 520;
-    font-size: 15px;
-    padding: 11px 35px;
-    border-radius: 30px;
-    border: none;
-    cursor: pointer;
-    margin-left: 10px;
-    transition: background-color 0.15s;
-  }
 
-  .buy-now:hover {
-    background-color: rgb(255,145,18);
-  }
 
-  .buy-now:active {
-    opacity: 0.8;
-  }
-
-  h1 {
-    font-family: sans-serif;
-    font-weight: 100;
-    color: rgb(82, 70, 70)
-  }
-
-  h4 {
-    font-family: sans-serif;
-    font-weight: 100;
-    color: rgb(82, 70, 70)
-  }
-  
-  .amazon-url {
-    transition: color 0.15s;
-  }
-
-  .amazon-url:hover {
-    color: rgb(194, 127, 3);
-  }
-  
-  .amazon-url:active {
-    opacity: 0.8;
-  }
-
-  .price {
-    color: rgb(0,118,0);
-    font-weight: bold;
-  }
-
-</style>
-
-<h1>
-  <b>
-    Exercises CSS basics
-  </b>
-</h1>
-
-<h4>Uber button:</h4>
-
-<button class="uber-button">
-  Request now
-</button>
-
-<br>
-<br>
-<br>
-
-<h4>Amazon button:</h4>
-
-<button class="amazon-button">
-  Add to Cart
-</button>
-
-<br>
-<br>
-<br>
-
-<h4>Github button:</h4>
-
-<button class="github-button">
-  Sign up
-</button>
-
-<br>
-<br>
-<br>
-
-<h4>Bootstrap button:</h4>
-
-<button class="bootstrap-button-1">
-  Get started
-</button>
-
-<button class="bootstrap-button-2">
-  Download
-</button>
-
-<br>
-<br>
-<br> 
-
-<h4>LinkedIn button:</h4>
-
-<button class="linkedin-button-1">
-  Apply on company website
-</button>
-
-<button class="linkedin-button-2">
-  Save
-</button>
-
-<br>
-<br>
-<br>
-
-<h4> Recreate design:</h4>
-
-<a href="https://www.amazon.com/", target="_blank", class="amazon-url">
-  Back to Amazon
-</a>
-<br> 
-<h2>Nike Black Running Shoes</h2>
-<p class ="price">$39 - in stock.</p>
-<p>Free delivery tomorrow.</p>
-<button class="add-to-cart">
-  Add to Cart
-</button>
-<button class="buy-now">
-  Buy now
-</button>

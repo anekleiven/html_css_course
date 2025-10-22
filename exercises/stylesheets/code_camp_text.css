@@ -1,0 +1,30 @@
+
+p {
+  font-family: Arial;
+  font-size: 14px;
+  margin-top: 0px;
+  margin-bottom: 0px; 
+}
+
+.url-text {
+  font-weight: bold;
+  color: black
+}
+
+.free-code-camp {
+  color: rgb(127, 123, 123);
+  margin-bottom: 10px;
+}
+
+.developer-text {
+  margin-bottom: 20px;
+  width: 450px;
+}
+
+.developer-name {
+  color: rgb(8, 138, 193)
+}
+
+.developer-name:hover {
+  cursor: pointer;
+}
