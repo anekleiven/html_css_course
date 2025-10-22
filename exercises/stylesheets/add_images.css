@@ -1,0 +1,31 @@
+.flowers {
+  width: 200px;
+  border-radius: 7px;
+  margin-left: 20px;
+}
+
+.pink-flower {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 7px;
+  margin-left: 10px;
+}
+
+.sunflower {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: right;
+  border-radius: 100px;
+  margin-left: 10px;
+}
+
+p {
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 300;
+  text-align: center;
+  color: rgb(100, 28, 40)
+}

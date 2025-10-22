@@ -1,0 +1,47 @@
+p {
+  font-family: Arial;
+  font-size: 12px;
+  color: rgb(103, 101, 101)
+}
+
+input:focus {
+  outline: none;
+}
+
+.email {
+  font-weight: 400;
+  margin-bottom: 2px;
+}
+
+.searchbar {
+  font-family: Arial;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-right: 125px;
+  padding-left: 5px;
+  margin-bottom: 5px;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 3px;
+}
+.agree-button { 
+  font-family: Arial;
+  font-size: 16px;
+  color: white; 
+  background-color: rgb(44, 104, 173);
+  padding: 12px 105px;
+  border: none; 
+  border-radius: 25px;
+  margin-top: 5px;
+  cursor: pointer;
+  transition: background-color 0.15s,
+  opacity 0.15s;
+}
+
+.agree-button:hover {
+  background-color: rgb(37, 88, 146);
+}
+
+.agree-button:active {
+  opacity: 0.80;
+}

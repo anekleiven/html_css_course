@@ -1,0 +1,17 @@
+p {
+  font-family: montserrat;
+  text-align: center;
+}
+
+.model3 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.order-online {
+  font-size: 18px;
+}
+
+.touchless {
+  text-decoration: underline;
+}
