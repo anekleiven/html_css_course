@@ -1,0 +1,11 @@
+input {
+  display: block;
+}
+
+input:focus {
+  outline: none;
+}
+
+.name-box {
+  margin-bottom: 4px;
+}
