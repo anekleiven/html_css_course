@@ -1,10 +1,24 @@
+.tweet-box {
+  height: 56px;
+  width: 350px; 
+  box-shadow: 0px 0px 6px rgb(0,0,0,0.3);
+  border-radius: 7px;
+  margin-top: 20px;
+  margin-left: 10px;
+  padding-top: 8px;
+}
+
 .sunflower {
-  width: 40px;
-  height: 40px;
+  width: 37px;
+  height: 37px;
   vertical-align: middle; 
   object-fit: cover;
   border-radius: 50px;
   margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 5px; 
+  margin-bottom: 5px;
+  vertical-align: middle;
 }
 
 .search {
@@ -13,6 +27,7 @@
   border: none;
   vertical-align: middle;
   margin-right: 25px;
+  vertical-align: middle;
 }
 
 .search:focus {
@@ -29,6 +44,7 @@
   transition: opacity 0.15s;
   vertical-align: middle;
   margin-left: 20px;
+  cursor: pointer;
 }
 
 .tweet:hover {

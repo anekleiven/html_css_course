@@ -1,0 +1,58 @@
+.add-friend {
+  width: 205px;
+  height: 300px;
+  display: inline-block;
+  vertical-align: middle;
+  box-shadow: 0px 0px 6px rgb(0,0,0,0.3);
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.cat1, .cat2, .cat3 {
+  width: 185px;
+  height: 185px;
+  object-fit: cover;
+  margin-top: 10px;
+  margin-left: 10px; 
+  margin-right: 10px;
+  margin-bottom: 0px;
+}
+
+.name, .mutual-friends, .add-button {
+  font-family: Inter;
+}
+.name {
+  font-weight: 600;
+  margin-left: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.mutual-friends {
+  font-size: 13px;
+  color: rgb(150, 148, 148);
+  margin-left: 10px;
+  margin-top: 0px;
+}
+
+.add-button {
+  padding: 9px 16px;
+  background-color: rgb(52, 98, 213);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  margin-left: 10px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  transition: background-color 0.15s, 
+  opacity 0.15s;
+}
+
+.add-button:hover {
+  background-color: rgb(45, 85, 185);
+}
+
+.add-button:active {
+  opacity: 0.7;
+}
